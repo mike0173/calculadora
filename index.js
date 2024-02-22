@@ -13,7 +13,11 @@ function dividir(num1, num2){
     return num1 / num2;
 }
 function factorial(num1){
-    return num1
+    let res=1;
+    (let i = 1; i <= num1; i++){
+        res *= i
+    }
+    return res
 }
   function calculadora() {
     var opcion = prompt(
