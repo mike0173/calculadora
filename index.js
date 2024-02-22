@@ -19,6 +19,9 @@ function factorial(num1){
     }
     return  total
 }
+function raiz(num1){
+    return Math.sqrt(num1)
+}
   function calculadora() {
     var opcion = prompt(
       "Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Factorial\n6. Exponente\n7. Raíz cuadrada"
@@ -51,7 +54,7 @@ function factorial(num1){
         resultado = exponente(num1, exponenteNum);
         break;
       case "7":
-        resultado = raizCuadrada(num1);
+        resultado = raiz(num1);
         break;
       default:
         resultado = "Opción no válida";
